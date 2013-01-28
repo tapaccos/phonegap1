@@ -2,6 +2,7 @@
 //  --- our app behavior logic ---
 //
 run(function () {
+alert('test');
     // immediately invoked on first run
     var init = (function () {
         navigator.network.isReachable("google.com", function(status) {
