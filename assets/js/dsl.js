@@ -1,5 +1,6 @@
 // the app method accepts a fn to invoke on init unobtrusively 
 var run = function(application) {
+alert('test2')
     if (navigator.userAgent.indexOf('Browzr') > -1) {
         // blackberry
         setTimeout(application, 250)	
